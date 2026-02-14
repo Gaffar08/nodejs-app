@@ -38,6 +38,6 @@ jobs:
       - name: get the user_name and password from github
         run: |
           echo "Username: ${{ variables.USER_NAME }}"
-          echo "Password: ${{ secrets.PASSWORD }}"   
+          echo "Password: ${{ secrets.PASSWORD }}"
 
 
